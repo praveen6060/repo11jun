@@ -1,6 +1,11 @@
 
 public class Employee {
 	
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", age=" + age + "]";
+	}
+	
 	private String name;
 	private int age;
 	public String getName() {
